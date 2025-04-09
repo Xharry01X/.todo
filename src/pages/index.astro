@@ -1,22 +1,22 @@
 ---
-import people from "../data/sample.json";
+const res = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+const todo = await res.json();
+console.log("--data", todo);
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-	<meta name="generator" content={Astro.generator}>
     <title>Astro To-Do List</title>
     <link rel="stylesheet" href="/styles/styles.css" />
   </head>
   <body>
-    {
-		people.map((p)=> (
-			<p>{p.name}</p>
-			<p>{p.age}</p>
-            <p>{p.email}</p>
-		))
-	}
+    <div id="todo">
+      <h2>To-Do Item</h2>
+      <p><strong>ID:</strong> {todo.id}</p>
+      <p><strong>Title:</strong> {todo.title}</p>
+      <p><strong>Completed:</strong> {todo.completed ? "Yes" : "No"}</p>
+    </div>
   </body>
 </html>

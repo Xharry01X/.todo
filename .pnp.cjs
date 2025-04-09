@@ -30,10 +30,23 @@ const RAW_RUNTIME_STATE =
           ["@astrojs/mdx", "virtual:d25bef3d82aabde5e10d0c8ae650b74ee0d7708cb1edf6c5eb4136a5fa66c13567ca3c0c632be64734da3e9fff5417589e16e1a4e1f09e79020b4d65018a0d57#npm:4.2.3"],\
           ["@astrojs/rss", "npm:4.0.11"],\
           ["@astrojs/sitemap", "npm:3.3.0"],\
+          ["@astrojs/solid-js", "virtual:d25bef3d82aabde5e10d0c8ae650b74ee0d7708cb1edf6c5eb4136a5fa66c13567ca3c0c632be64734da3e9fff5417589e16e1a4e1f09e79020b4d65018a0d57#npm:5.0.7"],\
           ["astro", "npm:5.6.1"],\
+          ["solid-js", "npm:1.9.5"],\
           ["todo", "workspace:."]\
         ],\
         "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@ampproject/remapping", [\
+      ["npm:2.3.0", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@ampproject-remapping-npm-2.3.0-559c14eee4-10c0.zip/node_modules/@ampproject/remapping/",\
+        "packageDependencies": [\
+          ["@ampproject/remapping", "npm:2.3.0"],\
+          ["@jridgewell/gen-mapping", "npm:0.3.8"],\
+          ["@jridgewell/trace-mapping", "npm:0.3.25"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@astrojs/compiler", [\
@@ -152,6 +165,34 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@astrojs/solid-js", [\
+      ["npm:5.0.7", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@astrojs-solid-js-npm-5.0.7-318e79cbaa-10c0.zip/node_modules/@astrojs/solid-js/",\
+        "packageDependencies": [\
+          ["@astrojs/solid-js", "npm:5.0.7"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:d25bef3d82aabde5e10d0c8ae650b74ee0d7708cb1edf6c5eb4136a5fa66c13567ca3c0c632be64734da3e9fff5417589e16e1a4e1f09e79020b4d65018a0d57#npm:5.0.7", {\
+        "packageLocation": "./.yarn/__virtual__/@astrojs-solid-js-virtual-5a27dc0b1f/5/C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@astrojs-solid-js-npm-5.0.7-318e79cbaa-10c0.zip/node_modules/@astrojs/solid-js/",\
+        "packageDependencies": [\
+          ["@astrojs/solid-js", "virtual:d25bef3d82aabde5e10d0c8ae650b74ee0d7708cb1edf6c5eb4136a5fa66c13567ca3c0c632be64734da3e9fff5417589e16e1a4e1f09e79020b4d65018a0d57#npm:5.0.7"],\
+          ["@types/solid-devtools", null],\
+          ["@types/solid-js", null],\
+          ["solid-devtools", null],\
+          ["solid-js", "npm:1.9.5"],\
+          ["vite", "virtual:ce2e59287d3896e9d4ea0e80325f6e52433dc4e4e5da90cb55abc4f576aaf28402da5707f289f13a0e661730aec282d566ddb1dfa416f8c53accb972a5705bb1#npm:6.2.5"],\
+          ["vite-plugin-solid", "virtual:5a27dc0b1fbf4e9fac41e1bc46c181b62839a3249d20b0ced233eab7026ee167bfe0cc254052caed91bfe82926f6646a1b2619c657c7749ebbffdff1a24b8d0a#npm:2.11.6"]\
+        ],\
+        "packagePeers": [\
+          "@types/solid-devtools",\
+          "@types/solid-js",\
+          "solid-devtools",\
+          "solid-js"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@astrojs/telemetry", [\
       ["npm:3.2.0", {\
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@astrojs-telemetry-npm-3.2.0-21ab769bb5-10c0.zip/node_modules/@astrojs/telemetry/",\
@@ -164,6 +205,132 @@ const RAW_RUNTIME_STATE =
           ["is-docker", "npm:3.0.0"],\
           ["is-wsl", "npm:3.1.0"],\
           ["which-pm-runs", "npm:1.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@babel/code-frame", [\
+      ["npm:7.26.2", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@babel-code-frame-npm-7.26.2-4902b56813-10c0.zip/node_modules/@babel/code-frame/",\
+        "packageDependencies": [\
+          ["@babel/code-frame", "npm:7.26.2"],\
+          ["@babel/helper-validator-identifier", "npm:7.25.9"],\
+          ["js-tokens", "npm:4.0.0"],\
+          ["picocolors", "npm:1.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@babel/compat-data", [\
+      ["npm:7.26.8", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@babel-compat-data-npm-7.26.8-fb802c4940-10c0.zip/node_modules/@babel/compat-data/",\
+        "packageDependencies": [\
+          ["@babel/compat-data", "npm:7.26.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@babel/core", [\
+      ["npm:7.26.10", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@babel-core-npm-7.26.10-0b29e369b5-10c0.zip/node_modules/@babel/core/",\
+        "packageDependencies": [\
+          ["@ampproject/remapping", "npm:2.3.0"],\
+          ["@babel/code-frame", "npm:7.26.2"],\
+          ["@babel/core", "npm:7.26.10"],\
+          ["@babel/generator", "npm:7.27.0"],\
+          ["@babel/helper-compilation-targets", "npm:7.27.0"],\
+          ["@babel/helper-module-transforms", "virtual:0b29e369b5cabceb66f4f9f7eb2bfea5004820a7141f28569a8c55dbecef082f3ef9191fa4288e8f13bbcfed9896b6f90431a16a9ce18c31d8a25782f02d5f09#npm:7.26.0"],\
+          ["@babel/helpers", "npm:7.27.0"],\
+          ["@babel/parser", "npm:7.27.0"],\
+          ["@babel/template", "npm:7.27.0"],\
+          ["@babel/traverse", "npm:7.27.0"],\
+          ["@babel/types", "npm:7.27.0"],\
+          ["convert-source-map", "npm:2.0.0"],\
+          ["debug", "virtual:99b2e4c11c721a776fab79814639a0752f6a35bd04e35975cdf4286759909111e0d2e2db3a19e904f1b5552330866df2b34d47e7017b76a6dfe68c418ea3a924#npm:4.4.0"],\
+          ["gensync", "npm:1.0.0-beta.2"],\
+          ["json5", "npm:2.2.3"],\
+          ["semver", "npm:6.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@babel/generator", [\
+      ["npm:7.27.0", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@babel-generator-npm-7.27.0-47f3db45ce-10c0.zip/node_modules/@babel/generator/",\
+        "packageDependencies": [\
+          ["@babel/generator", "npm:7.27.0"],\
+          ["@babel/parser", "npm:7.27.0"],\
+          ["@babel/types", "npm:7.27.0"],\
+          ["@jridgewell/gen-mapping", "npm:0.3.8"],\
+          ["@jridgewell/trace-mapping", "npm:0.3.25"],\
+          ["jsesc", "npm:3.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@babel/helper-compilation-targets", [\
+      ["npm:7.27.0", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@babel-helper-compilation-targets-npm-7.27.0-a682051943-10c0.zip/node_modules/@babel/helper-compilation-targets/",\
+        "packageDependencies": [\
+          ["@babel/compat-data", "npm:7.26.8"],\
+          ["@babel/helper-compilation-targets", "npm:7.27.0"],\
+          ["@babel/helper-validator-option", "npm:7.25.9"],\
+          ["browserslist", "npm:4.24.4"],\
+          ["lru-cache", "npm:5.1.1"],\
+          ["semver", "npm:6.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@babel/helper-module-imports", [\
+      ["npm:7.18.6", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@babel-helper-module-imports-npm-7.18.6-1031faa864-10c0.zip/node_modules/@babel/helper-module-imports/",\
+        "packageDependencies": [\
+          ["@babel/helper-module-imports", "npm:7.18.6"],\
+          ["@babel/types", "npm:7.27.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:7.25.9", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@babel-helper-module-imports-npm-7.25.9-b86e31bde9-10c0.zip/node_modules/@babel/helper-module-imports/",\
+        "packageDependencies": [\
+          ["@babel/helper-module-imports", "npm:7.25.9"],\
+          ["@babel/traverse", "npm:7.27.0"],\
+          ["@babel/types", "npm:7.27.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@babel/helper-module-transforms", [\
+      ["npm:7.26.0", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@babel-helper-module-transforms-npm-7.26.0-7557a3558f-10c0.zip/node_modules/@babel/helper-module-transforms/",\
+        "packageDependencies": [\
+          ["@babel/helper-module-transforms", "npm:7.26.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:0b29e369b5cabceb66f4f9f7eb2bfea5004820a7141f28569a8c55dbecef082f3ef9191fa4288e8f13bbcfed9896b6f90431a16a9ce18c31d8a25782f02d5f09#npm:7.26.0", {\
+        "packageLocation": "./.yarn/__virtual__/@babel-helper-module-transforms-virtual-60af4713da/5/C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@babel-helper-module-transforms-npm-7.26.0-7557a3558f-10c0.zip/node_modules/@babel/helper-module-transforms/",\
+        "packageDependencies": [\
+          ["@babel/core", "npm:7.26.10"],\
+          ["@babel/helper-module-imports", "npm:7.25.9"],\
+          ["@babel/helper-module-transforms", "virtual:0b29e369b5cabceb66f4f9f7eb2bfea5004820a7141f28569a8c55dbecef082f3ef9191fa4288e8f13bbcfed9896b6f90431a16a9ce18c31d8a25782f02d5f09#npm:7.26.0"],\
+          ["@babel/helper-validator-identifier", "npm:7.25.9"],\
+          ["@babel/traverse", "npm:7.27.0"],\
+          ["@types/babel__core", null]\
+        ],\
+        "packagePeers": [\
+          "@babel/core",\
+          "@types/babel__core"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@babel/helper-plugin-utils", [\
+      ["npm:7.26.5", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@babel-helper-plugin-utils-npm-7.26.5-f9c17c9880-10c0.zip/node_modules/@babel/helper-plugin-utils/",\
+        "packageDependencies": [\
+          ["@babel/helper-plugin-utils", "npm:7.26.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -186,12 +353,83 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@babel/helper-validator-option", [\
+      ["npm:7.25.9", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@babel-helper-validator-option-npm-7.25.9-6450027d5d-10c0.zip/node_modules/@babel/helper-validator-option/",\
+        "packageDependencies": [\
+          ["@babel/helper-validator-option", "npm:7.25.9"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@babel/helpers", [\
+      ["npm:7.27.0", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@babel-helpers-npm-7.27.0-661e2983d3-10c0.zip/node_modules/@babel/helpers/",\
+        "packageDependencies": [\
+          ["@babel/helpers", "npm:7.27.0"],\
+          ["@babel/template", "npm:7.27.0"],\
+          ["@babel/types", "npm:7.27.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@babel/parser", [\
       ["npm:7.27.0", {\
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@babel-parser-npm-7.27.0-ab7dea7b75-10c0.zip/node_modules/@babel/parser/",\
         "packageDependencies": [\
           ["@babel/parser", "npm:7.27.0"],\
           ["@babel/types", "npm:7.27.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@babel/plugin-syntax-jsx", [\
+      ["npm:7.25.9", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@babel-plugin-syntax-jsx-npm-7.25.9-3df022f433-10c0.zip/node_modules/@babel/plugin-syntax-jsx/",\
+        "packageDependencies": [\
+          ["@babel/plugin-syntax-jsx", "npm:7.25.9"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:cc20703480597c730c1c0e3e2bef279ad80390ecf441a1bf2a9c5e341e7c54bb2adb9019632df3b0f80451834a1bd2d8200f8c6fc2c56d9d66e667887ec9d253#npm:7.25.9", {\
+        "packageLocation": "./.yarn/__virtual__/@babel-plugin-syntax-jsx-virtual-3393a264a3/5/C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@babel-plugin-syntax-jsx-npm-7.25.9-3df022f433-10c0.zip/node_modules/@babel/plugin-syntax-jsx/",\
+        "packageDependencies": [\
+          ["@babel/core", "npm:7.26.10"],\
+          ["@babel/helper-plugin-utils", "npm:7.26.5"],\
+          ["@babel/plugin-syntax-jsx", "virtual:cc20703480597c730c1c0e3e2bef279ad80390ecf441a1bf2a9c5e341e7c54bb2adb9019632df3b0f80451834a1bd2d8200f8c6fc2c56d9d66e667887ec9d253#npm:7.25.9"],\
+          ["@types/babel__core", "npm:7.20.5"]\
+        ],\
+        "packagePeers": [\
+          "@babel/core",\
+          "@types/babel__core"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@babel/template", [\
+      ["npm:7.27.0", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@babel-template-npm-7.27.0-941c698259-10c0.zip/node_modules/@babel/template/",\
+        "packageDependencies": [\
+          ["@babel/code-frame", "npm:7.26.2"],\
+          ["@babel/parser", "npm:7.27.0"],\
+          ["@babel/template", "npm:7.27.0"],\
+          ["@babel/types", "npm:7.27.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@babel/traverse", [\
+      ["npm:7.27.0", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@babel-traverse-npm-7.27.0-e376c6d256-10c0.zip/node_modules/@babel/traverse/",\
+        "packageDependencies": [\
+          ["@babel/code-frame", "npm:7.26.2"],\
+          ["@babel/generator", "npm:7.27.0"],\
+          ["@babel/parser", "npm:7.27.0"],\
+          ["@babel/template", "npm:7.27.0"],\
+          ["@babel/traverse", "npm:7.27.0"],\
+          ["@babel/types", "npm:7.27.0"],\
+          ["debug", "virtual:99b2e4c11c721a776fab79814639a0752f6a35bd04e35975cdf4286759909111e0d2e2db3a19e904f1b5552330866df2b34d47e7017b76a6dfe68c418ea3a924#npm:4.4.0"],\
+          ["globals", "npm:11.12.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -656,11 +894,52 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@jridgewell/gen-mapping", [\
+      ["npm:0.3.8", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@jridgewell-gen-mapping-npm-0.3.8-647be6e286-10c0.zip/node_modules/@jridgewell/gen-mapping/",\
+        "packageDependencies": [\
+          ["@jridgewell/gen-mapping", "npm:0.3.8"],\
+          ["@jridgewell/set-array", "npm:1.2.1"],\
+          ["@jridgewell/sourcemap-codec", "npm:1.5.0"],\
+          ["@jridgewell/trace-mapping", "npm:0.3.25"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@jridgewell/resolve-uri", [\
+      ["npm:3.1.2", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@jridgewell-resolve-uri-npm-3.1.2-5bc4245992-10c0.zip/node_modules/@jridgewell/resolve-uri/",\
+        "packageDependencies": [\
+          ["@jridgewell/resolve-uri", "npm:3.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@jridgewell/set-array", [\
+      ["npm:1.2.1", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@jridgewell-set-array-npm-1.2.1-2312928209-10c0.zip/node_modules/@jridgewell/set-array/",\
+        "packageDependencies": [\
+          ["@jridgewell/set-array", "npm:1.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@jridgewell/sourcemap-codec", [\
       ["npm:1.5.0", {\
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@jridgewell-sourcemap-codec-npm-1.5.0-dfd9126d71-10c0.zip/node_modules/@jridgewell/sourcemap-codec/",\
         "packageDependencies": [\
           ["@jridgewell/sourcemap-codec", "npm:1.5.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@jridgewell/trace-mapping", [\
+      ["npm:0.3.25", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@jridgewell-trace-mapping-npm-0.3.25-c076fd2279-10c0.zip/node_modules/@jridgewell/trace-mapping/",\
+        "packageDependencies": [\
+          ["@jridgewell/resolve-uri", "npm:3.1.2"],\
+          ["@jridgewell/sourcemap-codec", "npm:1.5.0"],\
+          ["@jridgewell/trace-mapping", "npm:0.3.25"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1017,6 +1296,51 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@shikijs-vscode-textmate-npm-10.0.2-c80a8c15da-10c0.zip/node_modules/@shikijs/vscode-textmate/",\
         "packageDependencies": [\
           ["@shikijs/vscode-textmate", "npm:10.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/babel__core", [\
+      ["npm:7.20.5", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@types-babel__core-npm-7.20.5-4d95f75eab-10c0.zip/node_modules/@types/babel__core/",\
+        "packageDependencies": [\
+          ["@babel/parser", "npm:7.27.0"],\
+          ["@babel/types", "npm:7.27.0"],\
+          ["@types/babel__core", "npm:7.20.5"],\
+          ["@types/babel__generator", "npm:7.27.0"],\
+          ["@types/babel__template", "npm:7.4.4"],\
+          ["@types/babel__traverse", "npm:7.20.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/babel__generator", [\
+      ["npm:7.27.0", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@types-babel__generator-npm-7.27.0-a5af33547a-10c0.zip/node_modules/@types/babel__generator/",\
+        "packageDependencies": [\
+          ["@babel/types", "npm:7.27.0"],\
+          ["@types/babel__generator", "npm:7.27.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/babel__template", [\
+      ["npm:7.4.4", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@types-babel__template-npm-7.4.4-f34eba762c-10c0.zip/node_modules/@types/babel__template/",\
+        "packageDependencies": [\
+          ["@babel/parser", "npm:7.27.0"],\
+          ["@babel/types", "npm:7.27.0"],\
+          ["@types/babel__template", "npm:7.4.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/babel__traverse", [\
+      ["npm:7.20.7", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/@types-babel__traverse-npm-7.20.7-06119f1d53-10c0.zip/node_modules/@types/babel__traverse/",\
+        "packageDependencies": [\
+          ["@babel/types", "npm:7.27.0"],\
+          ["@types/babel__traverse", "npm:7.20.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1387,6 +1711,57 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["babel-plugin-jsx-dom-expressions", [\
+      ["npm:0.39.7", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/babel-plugin-jsx-dom-expressions-npm-0.39.7-60617720cf-10c0.zip/node_modules/babel-plugin-jsx-dom-expressions/",\
+        "packageDependencies": [\
+          ["babel-plugin-jsx-dom-expressions", "npm:0.39.7"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:244b8fb9f90c3e95b77674def8a316a9efe58cfcb326017b7396eed9bd8570ac7f25dd0648715242ed1006172a36fdc94be25504759f8a67bd67d11584f605c0#npm:0.39.7", {\
+        "packageLocation": "./.yarn/__virtual__/babel-plugin-jsx-dom-expressions-virtual-cc20703480/5/C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/babel-plugin-jsx-dom-expressions-npm-0.39.7-60617720cf-10c0.zip/node_modules/babel-plugin-jsx-dom-expressions/",\
+        "packageDependencies": [\
+          ["@babel/core", "npm:7.26.10"],\
+          ["@babel/helper-module-imports", "npm:7.18.6"],\
+          ["@babel/plugin-syntax-jsx", "virtual:cc20703480597c730c1c0e3e2bef279ad80390ecf441a1bf2a9c5e341e7c54bb2adb9019632df3b0f80451834a1bd2d8200f8c6fc2c56d9d66e667887ec9d253#npm:7.25.9"],\
+          ["@babel/types", "npm:7.27.0"],\
+          ["@types/babel__core", "npm:7.20.5"],\
+          ["babel-plugin-jsx-dom-expressions", "virtual:244b8fb9f90c3e95b77674def8a316a9efe58cfcb326017b7396eed9bd8570ac7f25dd0648715242ed1006172a36fdc94be25504759f8a67bd67d11584f605c0#npm:0.39.7"],\
+          ["html-entities", "npm:2.3.3"],\
+          ["parse5", "npm:7.2.1"],\
+          ["validate-html-nesting", "npm:1.2.2"]\
+        ],\
+        "packagePeers": [\
+          "@babel/core",\
+          "@types/babel__core"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["babel-preset-solid", [\
+      ["npm:1.9.5", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/babel-preset-solid-npm-1.9.5-10040e448f-10c0.zip/node_modules/babel-preset-solid/",\
+        "packageDependencies": [\
+          ["babel-preset-solid", "npm:1.9.5"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:e9b926781042811e179d1677b53ee0e8e9d86ebe9d9e627072c65bcbe3ca1da247741c2c2305b25fedae066999e7ff73279b199e6e0192ecab42d214de0caab8#npm:1.9.5", {\
+        "packageLocation": "./.yarn/__virtual__/babel-preset-solid-virtual-244b8fb9f9/5/C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/babel-preset-solid-npm-1.9.5-10040e448f-10c0.zip/node_modules/babel-preset-solid/",\
+        "packageDependencies": [\
+          ["@babel/core", "npm:7.26.10"],\
+          ["@types/babel__core", "npm:7.20.5"],\
+          ["babel-plugin-jsx-dom-expressions", "virtual:244b8fb9f90c3e95b77674def8a316a9efe58cfcb326017b7396eed9bd8570ac7f25dd0648715242ed1006172a36fdc94be25504759f8a67bd67d11584f605c0#npm:0.39.7"],\
+          ["babel-preset-solid", "virtual:e9b926781042811e179d1677b53ee0e8e9d86ebe9d9e627072c65bcbe3ca1da247741c2c2305b25fedae066999e7ff73279b199e6e0192ecab42d214de0caab8#npm:1.9.5"]\
+        ],\
+        "packagePeers": [\
+          "@babel/core",\
+          "@types/babel__core"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["bail", [\
       ["npm:2.0.2", {\
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/bail-npm-2.0.2-42130cb251-10c0.zip/node_modules/bail/",\
@@ -1441,6 +1816,19 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["browserslist", [\
+      ["npm:4.24.4", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/browserslist-npm-4.24.4-2fdeb5face-10c0.zip/node_modules/browserslist/",\
+        "packageDependencies": [\
+          ["browserslist", "npm:4.24.4"],\
+          ["caniuse-lite", "npm:1.0.30001712"],\
+          ["electron-to-chromium", "npm:1.5.134"],\
+          ["node-releases", "npm:2.0.19"],\
+          ["update-browserslist-db", "virtual:2fdeb5face9914bb5fd94c70f084d153c80d2f09e5aabee010e4220b248dc23fca8f73c7beed0195e45ae6e2b1cb25388f709d7bfc4f00e473d573887faf4e5c#npm:1.1.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["cacache", [\
       ["npm:19.0.1", {\
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/cacache-npm-19.0.1-395cba1936-10c0.zip/node_modules/cacache/",\
@@ -1467,6 +1855,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/camelcase-npm-8.0.0-a3fa03dcc3-10c0.zip/node_modules/camelcase/",\
         "packageDependencies": [\
           ["camelcase", "npm:8.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["caniuse-lite", [\
+      ["npm:1.0.30001712", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/caniuse-lite-npm-1.0.30001712-a482a71cec-10c0.zip/node_modules/caniuse-lite/",\
+        "packageDependencies": [\
+          ["caniuse-lite", "npm:1.0.30001712"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1639,6 +2036,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["convert-source-map", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/convert-source-map-npm-2.0.0-7ab664dc4e-10c0.zip/node_modules/convert-source-map/",\
+        "packageDependencies": [\
+          ["convert-source-map", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["cookie", [\
       ["npm:1.0.2", {\
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/cookie-npm-1.0.2-7a4273d897-10c0.zip/node_modules/cookie/",\
@@ -1684,6 +2090,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/cssesc-npm-3.0.0-15ec56f86f-10c0.zip/node_modules/cssesc/",\
         "packageDependencies": [\
           ["cssesc", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["csstype", [\
+      ["npm:3.1.3", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/csstype-npm-3.1.3-e9a1c85013-10c0.zip/node_modules/csstype/",\
+        "packageDependencies": [\
+          ["csstype", "npm:3.1.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1822,6 +2237,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["electron-to-chromium", [\
+      ["npm:1.5.134", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/electron-to-chromium-npm-1.5.134-928bc1027b-10c0.zip/node_modules/electron-to-chromium/",\
+        "packageDependencies": [\
+          ["electron-to-chromium", "npm:1.5.134"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["emoji-regex", [\
       ["npm:10.4.0", {\
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/emoji-regex-npm-10.4.0-919f0a031a-10c0.zip/node_modules/emoji-regex/",\
@@ -1956,6 +2380,15 @@ const RAW_RUNTIME_STATE =
           ["@esbuild/win32-ia32", "npm:0.25.2"],\
           ["@esbuild/win32-x64", "npm:0.25.2"],\
           ["esbuild", "npm:0.25.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["escalade", [\
+      ["npm:3.2.0", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/escalade-npm-3.2.0-19b50dd48f-10c0.zip/node_modules/escalade/",\
+        "packageDependencies": [\
+          ["escalade", "npm:3.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2151,6 +2584,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["gensync", [\
+      ["npm:1.0.0-beta.2", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/gensync-npm-1.0.0-beta.2-224666d72f-10c0.zip/node_modules/gensync/",\
+        "packageDependencies": [\
+          ["gensync", "npm:1.0.0-beta.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["get-east-asian-width", [\
       ["npm:1.3.0", {\
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/get-east-asian-width-npm-1.3.0-96a4370305-10c0.zip/node_modules/get-east-asian-width/",\
@@ -2180,6 +2622,15 @@ const RAW_RUNTIME_STATE =
           ["minipass", "npm:7.1.2"],\
           ["package-json-from-dist", "npm:1.0.1"],\
           ["path-scurry", "npm:1.11.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["globals", [\
+      ["npm:11.12.0", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/globals-npm-11.12.0-1fa7f41a6c-10c0.zip/node_modules/globals/",\
+        "packageDependencies": [\
+          ["globals", "npm:11.12.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2407,6 +2858,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["html-entities", [\
+      ["npm:2.3.3", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/html-entities-npm-2.3.3-e0aac656af-10c0.zip/node_modules/html-entities/",\
+        "packageDependencies": [\
+          ["html-entities", "npm:2.3.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["html-escaper", [\
       ["npm:3.0.3", {\
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/html-escaper-npm-3.0.3-d637f786b0-10c0.zip/node_modules/html-escaper/",\
@@ -2597,6 +3057,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["is-what", [\
+      ["npm:4.1.16", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/is-what-npm-4.1.16-1622ed8fd8-10c0.zip/node_modules/is-what/",\
+        "packageDependencies": [\
+          ["is-what", "npm:4.1.16"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["is-wsl", [\
       ["npm:3.1.0", {\
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/is-wsl-npm-3.1.0-311c6d2265-10c0.zip/node_modules/is-wsl/",\
@@ -2634,6 +3103,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["js-tokens", [\
+      ["npm:4.0.0", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/js-tokens-npm-4.0.0-0ac852e9e2-10c0.zip/node_modules/js-tokens/",\
+        "packageDependencies": [\
+          ["js-tokens", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["js-yaml", [\
       ["npm:4.1.0", {\
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/js-yaml-npm-4.1.0-3606f32312-10c0.zip/node_modules/js-yaml/",\
@@ -2649,6 +3127,24 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/jsbn-npm-1.1.0-1da0181838-10c0.zip/node_modules/jsbn/",\
         "packageDependencies": [\
           ["jsbn", "npm:1.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["jsesc", [\
+      ["npm:3.1.0", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/jsesc-npm-3.1.0-2f4f998cd7-10c0.zip/node_modules/jsesc/",\
+        "packageDependencies": [\
+          ["jsesc", "npm:3.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["json5", [\
+      ["npm:2.2.3", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/json5-npm-2.2.3-9962c55073-10c0.zip/node_modules/json5/",\
+        "packageDependencies": [\
+          ["json5", "npm:2.2.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2683,6 +3179,14 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/lru-cache-npm-10.4.3-30c10b861a-10c0.zip/node_modules/lru-cache/",\
         "packageDependencies": [\
           ["lru-cache", "npm:10.4.3"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:5.1.1", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/lru-cache-npm-5.1.1-f475882a51-10c0.zip/node_modules/lru-cache/",\
+        "packageDependencies": [\
+          ["lru-cache", "npm:5.1.1"],\
+          ["yallist", "npm:3.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2994,6 +3498,16 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/mdast", "npm:4.0.4"],\
           ["mdast-util-to-string", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["merge-anything", [\
+      ["npm:5.1.7", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/merge-anything-npm-5.1.7-6cc5f839be-10c0.zip/node_modules/merge-anything/",\
+        "packageDependencies": [\
+          ["is-what", "npm:4.1.16"],\
+          ["merge-anything", "npm:5.1.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3665,6 +4179,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["node-releases", [\
+      ["npm:2.0.19", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/node-releases-npm-2.0.19-b123ed6240-10c0.zip/node_modules/node-releases/",\
+        "packageDependencies": [\
+          ["node-releases", "npm:2.0.19"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["nopt", [\
       ["npm:8.1.0", {\
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/nopt-npm-8.1.0-5570ef63cd-10c0.zip/node_modules/nopt/",\
@@ -4275,10 +4798,48 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["semver", [\
+      ["npm:6.3.1", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/semver-npm-6.3.1-bcba31fdbe-10c0.zip/node_modules/semver/",\
+        "packageDependencies": [\
+          ["semver", "npm:6.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:7.7.1", {\
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/semver-npm-7.7.1-4572475307-10c0.zip/node_modules/semver/",\
         "packageDependencies": [\
           ["semver", "npm:7.7.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["seroval", [\
+      ["npm:1.2.1", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/seroval-npm-1.2.1-404bce76c2-10c0.zip/node_modules/seroval/",\
+        "packageDependencies": [\
+          ["seroval", "npm:1.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["seroval-plugins", [\
+      ["npm:1.2.1", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/seroval-plugins-npm-1.2.1-36c62f1d92-10c0.zip/node_modules/seroval-plugins/",\
+        "packageDependencies": [\
+          ["seroval-plugins", "npm:1.2.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:e99b472f6b3fa7a788620a2d67e0a1219d0b0a6eb5fd6d9f06aa8b88173e41faec591e0b8878e9f38cf4aea76fc28567378d37606cff20b946183da692fac583#npm:1.2.1", {\
+        "packageLocation": "./.yarn/__virtual__/seroval-plugins-virtual-dbf615c3f7/5/C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/seroval-plugins-npm-1.2.1-36c62f1d92-10c0.zip/node_modules/seroval-plugins/",\
+        "packageDependencies": [\
+          ["@types/seroval", null],\
+          ["seroval", "npm:1.2.1"],\
+          ["seroval-plugins", "virtual:e99b472f6b3fa7a788620a2d67e0a1219d0b0a6eb5fd6d9f06aa8b88173e41faec591e0b8878e9f38cf4aea76fc28567378d37606cff20b946183da692fac583#npm:1.2.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/seroval",\
+          "seroval"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4428,6 +4989,43 @@ const RAW_RUNTIME_STATE =
           ["debug", "virtual:99b2e4c11c721a776fab79814639a0752f6a35bd04e35975cdf4286759909111e0d2e2db3a19e904f1b5552330866df2b34d47e7017b76a6dfe68c418ea3a924#npm:4.4.0"],\
           ["socks", "npm:2.8.4"],\
           ["socks-proxy-agent", "npm:8.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["solid-js", [\
+      ["npm:1.9.5", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/solid-js-npm-1.9.5-e99b472f6b-10c0.zip/node_modules/solid-js/",\
+        "packageDependencies": [\
+          ["csstype", "npm:3.1.3"],\
+          ["seroval", "npm:1.2.1"],\
+          ["seroval-plugins", "virtual:e99b472f6b3fa7a788620a2d67e0a1219d0b0a6eb5fd6d9f06aa8b88173e41faec591e0b8878e9f38cf4aea76fc28567378d37606cff20b946183da692fac583#npm:1.2.1"],\
+          ["solid-js", "npm:1.9.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["solid-refresh", [\
+      ["npm:0.6.3", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/solid-refresh-npm-0.6.3-52ce4eab8e-10c0.zip/node_modules/solid-refresh/",\
+        "packageDependencies": [\
+          ["solid-refresh", "npm:0.6.3"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:e9b926781042811e179d1677b53ee0e8e9d86ebe9d9e627072c65bcbe3ca1da247741c2c2305b25fedae066999e7ff73279b199e6e0192ecab42d214de0caab8#npm:0.6.3", {\
+        "packageLocation": "./.yarn/__virtual__/solid-refresh-virtual-bc59a9b255/5/C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/solid-refresh-npm-0.6.3-52ce4eab8e-10c0.zip/node_modules/solid-refresh/",\
+        "packageDependencies": [\
+          ["@babel/generator", "npm:7.27.0"],\
+          ["@babel/helper-module-imports", "npm:7.25.9"],\
+          ["@babel/types", "npm:7.27.0"],\
+          ["@types/solid-js", null],\
+          ["solid-js", "npm:1.9.5"],\
+          ["solid-refresh", "virtual:e9b926781042811e179d1677b53ee0e8e9d86ebe9d9e627072c65bcbe3ca1da247741c2c2305b25fedae066999e7ff73279b199e6e0192ecab42d214de0caab8#npm:0.6.3"]\
+        ],\
+        "packagePeers": [\
+          "@types/solid-js",\
+          "solid-js"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4619,7 +5217,9 @@ const RAW_RUNTIME_STATE =
           ["@astrojs/mdx", "virtual:d25bef3d82aabde5e10d0c8ae650b74ee0d7708cb1edf6c5eb4136a5fa66c13567ca3c0c632be64734da3e9fff5417589e16e1a4e1f09e79020b4d65018a0d57#npm:4.2.3"],\
           ["@astrojs/rss", "npm:4.0.11"],\
           ["@astrojs/sitemap", "npm:3.3.0"],\
+          ["@astrojs/solid-js", "virtual:d25bef3d82aabde5e10d0c8ae650b74ee0d7708cb1edf6c5eb4136a5fa66c13567ca3c0c632be64734da3e9fff5417589e16e1a4e1f09e79020b4d65018a0d57#npm:5.0.7"],\
           ["astro", "npm:5.6.1"],\
+          ["solid-js", "npm:1.9.5"],\
           ["todo", "workspace:."]\
         ],\
         "linkType": "SOFT"\
@@ -4959,6 +5559,39 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["update-browserslist-db", [\
+      ["npm:1.1.3", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/update-browserslist-db-npm-1.1.3-569a9be54b-10c0.zip/node_modules/update-browserslist-db/",\
+        "packageDependencies": [\
+          ["update-browserslist-db", "npm:1.1.3"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:2fdeb5face9914bb5fd94c70f084d153c80d2f09e5aabee010e4220b248dc23fca8f73c7beed0195e45ae6e2b1cb25388f709d7bfc4f00e473d573887faf4e5c#npm:1.1.3", {\
+        "packageLocation": "./.yarn/__virtual__/update-browserslist-db-virtual-d61a3b9678/5/C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/update-browserslist-db-npm-1.1.3-569a9be54b-10c0.zip/node_modules/update-browserslist-db/",\
+        "packageDependencies": [\
+          ["@types/browserslist", null],\
+          ["browserslist", "npm:4.24.4"],\
+          ["escalade", "npm:3.2.0"],\
+          ["picocolors", "npm:1.1.1"],\
+          ["update-browserslist-db", "virtual:2fdeb5face9914bb5fd94c70f084d153c80d2f09e5aabee010e4220b248dc23fca8f73c7beed0195e45ae6e2b1cb25388f709d7bfc4f00e473d573887faf4e5c#npm:1.1.3"]\
+        ],\
+        "packagePeers": [\
+          "@types/browserslist",\
+          "browserslist"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["validate-html-nesting", [\
+      ["npm:1.2.2", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/validate-html-nesting-npm-1.2.2-92d08f7d17-10c0.zip/node_modules/validate-html-nesting/",\
+        "packageDependencies": [\
+          ["validate-html-nesting", "npm:1.2.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["vfile", [\
       ["npm:6.0.3", {\
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/vfile-npm-6.0.3-a16e09914c-10c0.zip/node_modules/vfile/",\
@@ -5052,6 +5685,42 @@ const RAW_RUNTIME_STATE =
           "terser",\
           "tsx",\
           "yaml"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["vite-plugin-solid", [\
+      ["npm:2.11.6", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/vite-plugin-solid-npm-2.11.6-49caba7607-10c0.zip/node_modules/vite-plugin-solid/",\
+        "packageDependencies": [\
+          ["vite-plugin-solid", "npm:2.11.6"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:5a27dc0b1fbf4e9fac41e1bc46c181b62839a3249d20b0ced233eab7026ee167bfe0cc254052caed91bfe82926f6646a1b2619c657c7749ebbffdff1a24b8d0a#npm:2.11.6", {\
+        "packageLocation": "./.yarn/__virtual__/vite-plugin-solid-virtual-e9b9267810/5/C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/vite-plugin-solid-npm-2.11.6-49caba7607-10c0.zip/node_modules/vite-plugin-solid/",\
+        "packageDependencies": [\
+          ["@babel/core", "npm:7.26.10"],\
+          ["@testing-library/jest-dom", null],\
+          ["@types/babel__core", "npm:7.20.5"],\
+          ["@types/solid-js", null],\
+          ["@types/testing-library__jest-dom", null],\
+          ["@types/vite", null],\
+          ["babel-preset-solid", "virtual:e9b926781042811e179d1677b53ee0e8e9d86ebe9d9e627072c65bcbe3ca1da247741c2c2305b25fedae066999e7ff73279b199e6e0192ecab42d214de0caab8#npm:1.9.5"],\
+          ["merge-anything", "npm:5.1.7"],\
+          ["solid-js", "npm:1.9.5"],\
+          ["solid-refresh", "virtual:e9b926781042811e179d1677b53ee0e8e9d86ebe9d9e627072c65bcbe3ca1da247741c2c2305b25fedae066999e7ff73279b199e6e0192ecab42d214de0caab8#npm:0.6.3"],\
+          ["vite", "virtual:ce2e59287d3896e9d4ea0e80325f6e52433dc4e4e5da90cb55abc4f576aaf28402da5707f289f13a0e661730aec282d566ddb1dfa416f8c53accb972a5705bb1#npm:6.2.5"],\
+          ["vite-plugin-solid", "virtual:5a27dc0b1fbf4e9fac41e1bc46c181b62839a3249d20b0ced233eab7026ee167bfe0cc254052caed91bfe82926f6646a1b2619c657c7749ebbffdff1a24b8d0a#npm:2.11.6"],\
+          ["vitefu", "virtual:ce2e59287d3896e9d4ea0e80325f6e52433dc4e4e5da90cb55abc4f576aaf28402da5707f289f13a0e661730aec282d566ddb1dfa416f8c53accb972a5705bb1#npm:1.0.6"]\
+        ],\
+        "packagePeers": [\
+          "@testing-library/jest-dom",\
+          "@types/solid-js",\
+          "@types/testing-library__jest-dom",\
+          "@types/vite",\
+          "solid-js",\
+          "vite"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5166,6 +5835,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["yallist", [\
+      ["npm:3.1.1", {\
+        "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/yallist-npm-3.1.1-a568a556b4-10c0.zip/node_modules/yallist/",\
+        "packageDependencies": [\
+          ["yallist", "npm:3.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:4.0.0", {\
         "packageLocation": "../../../../C:/Users/ASUS/AppData/Local/Yarn/Berry/cache/yallist-npm-4.0.0-b493d9e907-10c0.zip/node_modules/yallist/",\
         "packageDependencies": [\

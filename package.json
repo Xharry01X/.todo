@@ -12,7 +12,9 @@
     "@astrojs/mdx": "^4.2.3",
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.3.0",
-    "astro": "^5.6.1"
+    "@astrojs/solid-js": "^5.0.7",
+    "astro": "^5.6.1",
+    "solid-js": "^1.9.5"
   },
   "packageManager": "yarn@4.8.1+sha256.8c8cf7bef23cced7c138d0da3ea72d43d2626727f1ae309edb853c41ab18ef1c"
 }
