@@ -1,0 +1,17 @@
+
+[
+
+
+{
+    "name": "Harry",
+    "age": 22,
+    "email": "harry@gmail.com",
+    "occupation":"Software engineer"
+},
+{
+    "name": "sri",
+    "age": 28,
+    "email": "sri@gmail.com",
+    "occupation":"Hardwere engineer"
+}
+]

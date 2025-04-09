@@ -1,15 +1,22 @@
 ---
-const my_name = "harshit"
+import people from "../data/sample.json";
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+	<meta name="generator" content={Astro.generator}>
     <title>Astro To-Do List</title>
     <link rel="stylesheet" href="/styles/styles.css" />
   </head>
   <body>
-    <h1>Astro {my_name + " singh"}</h1>
+    {
+		people.map((p)=> (
+			<p>{p.name}</p>
+			<p>{p.age}</p>
+            <p>{p.email}</p>
+		))
+	}
   </body>
 </html>
