@@ -1,18 +1,12 @@
 ---
+import BaseLayout from "../layouts/BaseLayout.astro"
+
 const my_name = "harshit"
 ---
 
 <!-- this can be.html no issues; even markdon files works the same  -->
  <!-- use this _about.md; tells compiler keep ignore this section-->
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Astro To-Do List</title>
-    <link rel="stylesheet" href="/styles/styles.css" />
-  </head>
-  <body>
-    <h1>about</h1>
-  </body>
-</html>
+<BaseLayout title="about">
+About
+</BaseLayout>
